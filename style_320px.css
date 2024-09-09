@@ -81,7 +81,8 @@ summary::-webkit-details-marker {
     list-style-type: none;
     padding: 5px 15px;
 }
-.link-navigation{
+a.link-navigation{
+    padding:0;
     text-decoration: none;
     color: #7E7E82;
     font-family: "TTLakesM";
