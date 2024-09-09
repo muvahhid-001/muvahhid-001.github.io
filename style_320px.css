@@ -9,6 +9,9 @@ body{
     height: 88px;
     display: flex;
 }
+summary::-webkit-details-marker {
+  display: none;
+}
 .header__menu{
     display: flex;
     width: 100%;
