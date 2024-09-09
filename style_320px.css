@@ -10,7 +10,7 @@ body{
     display: flex;
 }
 summary::-webkit-details-marker {
-  display: none;
+  display: none !important;
 }
 .header__menu{
     display: flex;
