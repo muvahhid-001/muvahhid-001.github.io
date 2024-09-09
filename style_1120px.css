@@ -1,0 +1,102 @@
+@media  (min-width: 1120px){
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: #F8F8F8;
+    }
+    .header{
+        background-color: #F8F8F8 !important;
+        height: 88px;
+        display: flex;
+    }
+    .menu_divider{
+        display: none !important;
+    }
+    .header__menu{
+        margin-top: 30px;
+        font-weight: bold;
+    }
+    .menu__link{
+        display: none !important;
+    }
+    .article-more{
+        width: 600px !important;
+    }
+    a.menu__beforetitle{
+        margin-left: auto;
+        align-self: center;
+    }
+    a.menu__beforetitle-two{
+        align-self: center;
+    }
+    .repair{
+        margin-right: 30px;
+        display: flex !important;
+    }
+    a.menu__beforetitle::before {
+        content: "Оставить заявку";
+        color: #1B1C21;
+        font-family: "TTLakesM"; 
+    }
+    a.menu__beforetitle-two::before {
+        content: "Статус ремонта";
+        color: #1B1C21;
+        font-family: "TTLakesM";
+    }
+    a.search{
+        display: flex !important;
+        margin-right: 40px;
+    }
+    .search,
+    .repair{
+        margin-left: 7px !important;
+    }
+    .title{
+        margin-top: 30px;
+    }
+    .navigation__nav-list{
+        display: flex;
+        flex-wrap: wrap;
+        height: 40px;
+        padding-top: 5px;
+        margin-top: -5px;
+        padding-bottom: 20px;
+    }
+    main{
+        margin-top: -100px;
+    }
+    article.content_row__content{
+        flex: 0 0 490px;
+    }
+    div.content_row{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: nowrap !important;
+    }
+    article.article-longmore{
+        display: flex;
+    }
+    article.article-more{
+        margin-top: 27px !important;
+        margin-bottom: 5px !important;
+        width: 500px !important;
+        font-size: 0;
+    }
+    article.article-more::before{
+        content: "Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким." !important;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    p.content_row__details::before{
+        content: "На этом всё" !important;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    img.content_row__company-img{
+        width: 525px;
+        height: 290px;
+        border-radius: 10px;
+        top: 170px !important;
+        margin-left: 150px !important;
+    }
+    }

@@ -1,0 +1,77 @@
+@media  (min-width: 768px){
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: #F8F8F8;
+    }
+    article.article-more{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    width: 300px;
+    }
+    img.content_row__company-img{
+        left: 380px;
+        border-radius: 5px;
+        top: 225px;
+        width: 360px;
+        height: 198px;
+    }
+    article.content_row__content{
+        font-size: 14px;
+        width: 300px;
+    }
+    .menu_divider.divider-two{
+        border-radius: 20px;
+        display: flex;
+        width: 2px;
+        height: 32px;
+        align-self: center;
+        margin-left: 15px;
+        background-color: #EAEAEA;
+    }
+    div.menu_divider.divider{
+        width: 3px;
+        order: -2;
+        border-radius: 20px;
+    }
+    .menu__link.logo{
+        order: -1;
+    }
+    .menu__link.list{
+        order: -3;
+    }
+    .menu__link.call,
+    .menu__link.chat,
+    .menu__link.contact{
+        display: flex;
+    }
+    .menu__link.call{
+        margin-left: auto;
+    }
+    .menu__link.repair{
+        margin-left: 15px;
+    }
+    .menu__link.search{
+        margin-right: 30px;
+    }
+    summary{
+        margin-top: 7.5px !important;
+    }
+    img.arrows-img{
+        margin-top: 5px;
+    }
+    details[open] .content_row__details{
+        margin-top: 7.5px !important;
+    }
+    p.content_row__details{
+    width: 290px;
+    font-size: 0;
+    line-height: 14px;
+    }
+    p.content_row__details::before{
+        content: "что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.";
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
