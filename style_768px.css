@@ -10,18 +10,18 @@
     margin-bottom: 7px;
     width: 300px;
     }
-    img.content_row__company-img{
+    img.content-row__company-img{
         left: 380px;
         border-radius: 5px;
         top: 225px;
         width: 360px;
         height: 198px;
     }
-    article.content_row__content{
+    article.content-row__content{
         font-size: 14px;
         width: 300px;
     }
-    .menu_divider.divider-two{
+    .menu__divider.divider-two{
         border-radius: 20px;
         display: flex;
         width: 2px;
@@ -30,7 +30,7 @@
         margin-left: 15px;
         background-color: #EAEAEA;
     }
-    div.menu_divider.divider{
+    div.menu__divider.divider{
         width: 3px;
         order: -2;
         border-radius: 20px;
@@ -61,15 +61,15 @@
     img.arrows-img{
         margin-top: 5px;
     }
-    details[open] .content_row__details{
+    details[open] .content-row__details{
         margin-top: 7.5px !important;
     }
-    p.content_row__details{
+    p.content-row__details{
     width: 290px;
     font-size: 0;
     line-height: 14px;
     }
-    p.content_row__details::before{
+    p.content-row__details::before{
         content: "что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.";
         font-size: 14px;
         line-height: 20px;
