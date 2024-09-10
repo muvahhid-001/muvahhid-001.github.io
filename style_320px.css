@@ -32,7 +32,7 @@ summary::-webkit-details-marker {
     align-self: center;
     margin-left: 15px;
 }
-.menu_divider.divider{
+.menu__divider.divider{
     border-radius: 20px;
     width: 2px;
     height: 32px;
@@ -62,7 +62,7 @@ summary::-webkit-details-marker {
 .article-more{
     display: none;
 }
-.title_text{
+.title__text{
     font-family: "TTLakes";
     align-self: center;
     font-size: 28px;
@@ -105,7 +105,7 @@ summary::-webkit-details-marker {
 summary{
     margin-top: 15px;
 }
-.content_row__content{
+.content-row__content{
     font-family: "TTLakesM";
     font-size: 14px;
     line-height: 20px;
@@ -118,7 +118,7 @@ summary{
 .image-cps{
     margin-top: 40px;
 }
-.content_row__read-more{
+.content-row__read-more{
     display: flex;
     margin-bottom: 10px;
 }
@@ -127,7 +127,7 @@ summary{
     align-self: flex-start;
     margin-right: 3px;
 }
-.content_row__company-img{
+.content-row__company-img{
     width: 320px;
     height: 176px;
     position: absolute;
