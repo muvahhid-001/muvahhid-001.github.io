@@ -16,10 +16,10 @@ summary::-webkit-details-marker {
     display: flex;
     width: 100%;
 }
-.link__menu-img{
+.header__menu-img{
     padding: 10px;
 }
-.menu__link{
+.header__link{
     align-self: center;
     width: 40px;
     height: 40px;
@@ -32,7 +32,7 @@ summary::-webkit-details-marker {
     align-self: center;
     margin-left: 15px;
 }
-.menu__divider.divider{
+.header__divider.divider{
     border-radius: 20px;
     width: 2px;
     height: 32px;
@@ -77,7 +77,7 @@ summary::-webkit-details-marker {
     padding-top: 5px;
     padding-left: 25px;
 }
-.nav-list__nav-link{
+.navigation__nav-link{
     list-style-type: none;
     padding: 5px 15px;
 }
@@ -86,7 +86,7 @@ summary::-webkit-details-marker {
     color: #7E7E82;
     font-family: "TTLakesM";
 }
-.link-navigation_active{
+.link-navigation.active{
     padding: 5px 15px;
     margin-left: -20px !important;
     margin-right: -20px !important;
