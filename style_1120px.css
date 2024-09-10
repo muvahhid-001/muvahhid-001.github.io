@@ -65,10 +65,10 @@
     main{
         margin-top: -100px;
     }
-    article.content_row__content{
+    article.content-row__content{
         flex: 0 0 490px;
     }
-    div.content_row{
+    div.content-row{
         margin-top: 20px;
         display: flex;
         flex-wrap: nowrap !important;
@@ -87,12 +87,12 @@
         font-size: 14px;
         line-height: 20px;
     }
-    p.content_row__details::before{
+    p.content-row__details::before{
         content: "На этом всё" !important;
         font-size: 14px;
         line-height: 20px;
     }
-    img.content_row__company-img{
+    img.content-row__company-img{
         width: 525px !important;
         height: 290px !important;
         border-radius: 10px;
