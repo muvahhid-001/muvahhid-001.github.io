@@ -61,6 +61,7 @@
         padding-top: 5px;
         margin-top: -5px;
         padding-bottom: 20px;
+        overflow: hidden !important;
     }
     main{
         margin-top: -100px;
