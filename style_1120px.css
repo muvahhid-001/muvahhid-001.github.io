@@ -9,36 +9,36 @@
         height: 88px;
         display: flex;
     }
-    .menu__divider{
+    .header__divider{
         display: none !important;
     }
     .header__menu{
         margin-top: 30px;
         font-weight: bold;
     }
-    .menu__link{
+    .header__link{
         display: none !important;
     }
     .article-more{
         width: 600px !important;
     }
-    a.menu__beforetitle{
+    a.header__beforetitle{
         margin-left: auto;
         align-self: center;
     }
-    a.menu__beforetitle-two{
+    a.header__beforetitle-two{
         align-self: center;
     }
     .repair{
         margin-right: 30px;
         display: flex !important;
     }
-    a.menu__beforetitle::before {
+    a.header__beforetitle::before {
         content: "Оставить заявку";
         color: #1B1C21;
         font-family: "TTLakesM"; 
     }
-    a.menu__beforetitle-two::before {
+    a.header__beforetitle-two::before {
         content: "Статус ремонта";
         color: #1B1C21;
         font-family: "TTLakesM";
