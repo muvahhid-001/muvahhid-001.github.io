@@ -93,8 +93,8 @@
         line-height: 20px;
     }
     img.content_row__company-img{
-        width: 525px;
-        height: 290px;
+        width: 525px !important;
+        height: 290px !important;
         border-radius: 10px;
         top: 170px !important;
         margin-left: 150px !important;
