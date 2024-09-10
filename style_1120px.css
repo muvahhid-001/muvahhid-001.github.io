@@ -9,7 +9,7 @@
         height: 88px;
         display: flex;
     }
-    .menu_divider{
+    .menu__divider{
         display: none !important;
     }
     .header__menu{
